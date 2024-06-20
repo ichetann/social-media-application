@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.postContainer{
+    height: 100vh;
+    display: flex;
+    gap: 20em;
+}
+
+.postDiv{
+    margin-top: 100px;
+    background-color: #F0F2F5;
+    height: 500px;
+    width: 300px;
+}
+
+.postDiv .shareInput{
+    cursor: pointer;
+    margin:40px 10px 50px 10px ;
+}
+
+.postMiddle{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.postMiddle .caption, .location {
+    border: none;
+    outline: none;
+    margin: 20px 10px 30px 10px;
+    font-size: 20px;
+}
+
+.postMiddle .caption:focus, .location:focus{
+    border: 1px solid black
+
+}
+
+.postDiv button{
+    background-color: #1775ee;
+    color: white;
+    border-radius: 10px;
+    margin-left:80px ;
+}

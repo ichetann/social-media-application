@@ -1,0 +1,102 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    display: flex;
+}
+
+.followerSection{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.hori{
+    height: 100px;
+    margin-right: 20px;
+}
+
+.hori p{
+    font-size: 20px;
+    color: gray;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    /* margin-bottom: 0px; */
+}
+
+.hori h3{
+    margin: 0;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+
+.containerWrapper{
+    /* height: 800px;
+    width: 650px; */
+    display: flex;
+}
+
+.container{
+    margin: 70px 0px 0px 200px;
+    height: 100%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F0F2F5;
+}
+
+.container hori{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputContainer input{
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    outline: none;
+    border: none;
+}
+
+.inputContainer input:focus{
+    border: 1px solid #373375;
+}
+
+.btns {
+    height: 100px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.btns button{
+    color: white;
+    background-color: #1775ee;
+}
+
+.follow{
+    color: white;
+    background-color: #1775ee;
+}
+
+
+/* =============================================================== */
+

@@ -1,0 +1,16 @@
+div{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 100vw;
+}
+
+.post input{
+    
+}

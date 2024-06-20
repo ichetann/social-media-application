@@ -1,0 +1,10 @@
+.feed{
+    flex: 2 2 0;
+    height:100vh;
+    margin-left: -60px;
+    margin-right: 40px;
+}
+
+/* .feedWrapper{
+    padding: 20px;
+} */

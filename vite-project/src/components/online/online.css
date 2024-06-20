@@ -1,0 +1,28 @@
+.onlineFriends{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.onlineFriendsContainer{
+    position: relative;
+    margin-right: 10px;
+}
+
+.onlineFriendsStatus{
+    background-color: limegreen;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    right: 0;
+    top: -2px;
+    border: 2px solid white;
+}
+
+.onlineFriendsImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
